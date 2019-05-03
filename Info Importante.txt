@@ -1,0 +1,145 @@
+﻿Notas
+Formato:
+* una semifinal
+* 4 equipos pasan y se va a la final
+
+
+Pitch
+* En español
+* hay que hacer un demo
+* pitchear en 5 min
+
+
+Criterios(son 5 criterios)
+* como se ajusta a la ONG
+* nivel de innovación
+* calidad de pitch
+
+
+Codeo
+* 6pm a 12pm se codea
+* 18 horas de codeo
+* Nos dan un repo privado a cada team
+* Usar si o si el repo que nos dieron
+* Nos dan un EC2 de amazon para hostear las cosas
+
+
+ONGs
+* Hay 2 ONGs
+* Chicas en tecnología
+   * Problemática
+      * cerrar la brecha de género en la tecnología
+      * 89% pasa por las apps
+      * 6% desarrollado por mujeres
+      * soluciones y problemáticas encontradas por hombres
+      * falta de mujeres en carreras en programación - 16%
+      * pocos emprendimientos de mujeres en tecnologia - 10%
+   * Causas
+      * estereotipos
+      * poca confianza en uso de recursos digitales
+      * VISIBILIZACIÓN(existe la palabra?)
+         * falta que haya más visibilidad de las cosas que hacen las mujeres
+      * falta de conocimiento y recursos
+   * Como hacen
+      * motivan a las chicas a nivel secundario
+      * crean metodologías de trabajo (STEAM + impacto social)
+   * Programas ya existentes
+      * programando un mundo mejor
+      * clubes
+      * comunidad
+      * talleres y charlas
+      * campañas
+      * investigación
+   * tienen problemas de escalabilidad y logística
+   * siguen teniendo chicas que ya participaron
+      * quieren
+   * programas e iniciativas
+   * Chicas entre 12 y 17 años
+   * incentivar que sigan carreras tecnológicas
+   * situación de las mujeres en el ámbito tecnológico en argentina
+   * Desafío
+      * crecieron un monton
+      * crecen mucho en el interior
+      * cómo hacer llegar oportunidades
+      * como llegar a cada vez más gente
+      * plataforma de e-learning
+      * acompañar a las chicas
+      * llegar a más lugares
+      * tienen una plataforma
+         * secciones
+            * clubes
+               * seguir las clases
+                  * 10 clases
+                  * piensen una problemática
+                  * piensen una solución innovadora
+                  * desarrollen una aplicación
+               * centralizar el material
+            * comunidad
+               * envio personalizado de oportunidades
+            * GRANDES MUJERES (mayor problematica)
+               * espacio para promocionar lo que hicieron otras mujeres
+               * nominar gente al premio grandes mujeres
+               * dar más visibilidad a lo que hacen las mujeres
+* Junior Achievement
+   * Básicamente quieren una plataforma
+   * Lo que quieren hacer es jugado con el tiempo que tenemos
+   * 3000 docentes y voluntarios
+   * educación
+   * impulsar una generación emprendedora
+   * quieren llegar a más gente
+   * 10% de los estudiantes del país
+   * chicos de 5 a 25
+   * problema
+      * falta de informacion o guias al momento de elegir carrera o estudios
+      * como llegar a ese 10% que quieren
+      * Se imaginan una plataforma online
+      * Nexo con profesionales
+         * Linkedin?
+      * Similar a socios por un dia
+      * Aminorar costos
+      * Que se imaginan
+            * todo esto en distintos niveles
+            * tipo para hablar con profesionales, chat es distinto nivel que mentoreo
+         * clips de personas
+         * test vocacional
+         * guia de carreras
+         * tips para entrevistas
+   * se centra en nivel secundario
+      * 15 a 18 años
+   * focos
+      * tecnología para el contenido
+      * docentes y voluntarios
+      * alianzas
+
+
+QA
+La escuela postula los chicos actualmente, pero se quiere que cada chico se anote con un adulto
+Las dos son jurados
+Usan Sailforce
+Salarios de los profesionales puede estar disponible o lo pueden decir
+La plataforma puede ser internacional
+Orden de llegada para los mentores
+Los chats los asigna la plataforma
+El tema de los niveles es progresivo
+* Empezas haciendo preguntas
+* Y vas llegando al mentoreo
+Problemas
+* empiezan y dejan
+* No les gusta la carrera
+* no empiezan
+* todos los que nunca terminan el secundario
+Background check se hace a los profesionales
+* test a los mentores
+* buscan más a las empresas, pero tratan de incluir gente que no está en empresas
+
+
+Posibles Ideas
+Para todo el tema de las preguntas, podes tener una especie de StackOverflow para lo que es preguntas, asi tenes variedad de respuestas, separadas por áreas
+Poder mandar un DM al profesional que te respondio
+
+
+Juli
+Esta en el ultimo año del secundario
+Hermana que setudia abogacia pero nunca le pregunto sobre el tema
+Como nunca averiguo cree que va a estudiar eso
+Pero tiene ganas de saber mas, y no esta muy conforme con abogacia
