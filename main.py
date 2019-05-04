@@ -20,6 +20,14 @@ def feed(career):
                                 "content": "Como se define una base de datos???",
                                 "user": "pepito99"
                             }})
+    if career=="economia":
+        return json.dumps({"title": "Evento de Economia",
+                            "body": "Hoy tuvimos un dia duro, cayo la bolsa y se perdieron 1.3 millones de dolares",
+                            "user": "jorge23",
+                            "comments": {
+                                "content": "Que fue lo que paso??",
+                                "user": "pepe49"
+                            }})
     return []
 
 @app.route("/wiki/<career>")

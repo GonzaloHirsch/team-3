@@ -4,17 +4,7 @@
   background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
+
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -58,8 +48,20 @@ button {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
   font-size: 18px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: #000000;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
 a {
