@@ -7,10 +7,6 @@ import os
 
 app = Flask(__name__)
 
-@app.route("/interests")
-def interest():
-    return render_template("interests.html")
-
 @app.route("/")
 def home():
     return render_template("index.html")
