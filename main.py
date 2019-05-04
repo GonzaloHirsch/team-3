@@ -14,7 +14,7 @@ def home():
 def feed(career):
     if career=="sistemas":
         return json.dumps({"title": "Mi Dia Como Programador",
-                            "body": "Hoy tuve una reunión muy interesante con el equipo de desarollo en el que definimos el modelo de la base de datos.",
+                            "body": "Hoy tuve una reunion muy interesante con el equipo de desarollo en el que definimos el modelo de la base de datos.",
                             "user": "juancito92",
                             "comments": {
                                 "content": "Como se define una base de datos???",
@@ -26,7 +26,7 @@ def feed(career):
 def wiki(career):
     if career=="sistemas":
         return json.dumps({"title": "Ingenieria en Sistemas",
-                           "body": "Las facultades que tienen ingeniería en sistemas en argentina son ITBA, UBA, UTN, UCA y Austral."
+                           "body": "Las facultades que tienen ingenieria en sistemas en argentina son ITBA, UBA, UTN, UCA y Austral."
         })
 
     return []
