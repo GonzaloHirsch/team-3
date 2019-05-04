@@ -7,7 +7,8 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
-  text-align: center;
+  text-align: left;
+  padding: 10px;
   font-family: arial;
 }
 
@@ -50,12 +51,12 @@ button:hover, a:hover {
 </div>
 
 <div class="w3-main" style="margin-left:200px">
-<!-- <div class="w3-teal">
-  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
-  <div class="w3-container">
+<div class="w3-teal" style="position: fixed; top: 0; width: 100%; ">
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" style="text-align: left;" onclick="w3_open()">&#9776;</button>
+  <!-- <div class="w3-container">
     <h1>Profile</h1>
-  </div>
-</div> -->
+  </div> -->
+</div>
 
 <!-- <div class="w3-container">
   <h3>Responsive Sidebar</h3>
@@ -64,24 +65,28 @@ button:hover, a:hover {
   <p>The sidebar will overlay of the page content.</p>
   <p><b>Resize the browser window to see how it works.</b></p>
 </div> -->
-   
-</div>
 
-<div style="width: 100%; overflow: hidden; margin-left:200px;">
-    <div class="w3-main" style=" padding: 10px; width: 25%; float: left;">
-  <img src="../Front/icons/img_avatar.png" alt="John" style="width:50%; border-radius: 50%; float: center">
-  <h1>John Doe</h1>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
-  </div>
-</div>
+<div class="w3-container" style="margin-top: 50px">
+<div  id="profileInfo" style="width: 100%;">
+    <div class="card" style=" padding: 10px; margin-top: 25px; width: 100%;">
+      <div style="background-color: rgb(160,0,0);padding: 0px; margin: 0px; height: 100px">
+        <center>
+          <img src="../Front/icons/img_avatar.png" alt="John" style="width:40%; border-radius: 50%; border:5px solid white; position: relative; top:25px">
+        </center>
+      
+      </div>
+      <h1 style="margin-top: 30px">John Doe</h1>
+      <p class="title">CEO & Founder, Example</p>
+      <p>Harvard University</p>
+      <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-dribbble"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+      </div>
+    </div>
 
-<div class="w3-main" style="; width: 75%;overflow: auto; float: right;">
+<div style="; width: 100%;overflow: auto;">
 <!-- Grid row -->
 <div style="width: 100%; margin:15px">
   <!-- Grid column -->
@@ -143,22 +148,22 @@ button:hover, a:hover {
 </div>
 <div style="width: 100%; margin:15px">
   <!-- Grid column -->
-  <div class="col-md-6 mb-4" style="float: left; margin:10px">
+  <div class="col-md-6 mb-4" style="float: left; margin:10px;">
     <!--Card-->
-    <div class="card default-color-dark" style="width: 100%" >
+    <div class="card default-color-dark" style="width: 100%;" >
       <!--Card image-->
-      <div class="view">
+      <div class="view" >
         <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(125).jpg" style="width: 100%" class="card-img-top" alt="photo">
         <a href="#">
           <div class="mask rgba-white-slight"></div>
         </a>
       </div>
       <!--Card content-->
-      <div class="card-body text-center">
+      <div class="card-body text-center" style="text-align: left; padding: 10px">
         <!--Title-->
-        <h4 class="card-title white-text">Title of the news</h4>
+        <h4 class="card-title white-text" >Title of the news</h4>
         <!--Text-->
-        <p class="card-text white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        <p class="card-text white-text" >Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
           quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p>
       </div>
@@ -201,9 +206,9 @@ button:hover, a:hover {
 </div>
 </div>
 </div>
+</div>
 
-
-
+</div>
 <script>
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
