@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Philosophy</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/vendor.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- script
+    ================================================== -->
+    <script src="{{ url_for('static', filename='js/modernizr.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/pace.min.js') }}"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                    <a class="logo" href="/feed">
+                        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
+
+                <a class="header__search-trigger" href="#0"></a>
+
+                <div class="header__search">
+
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+
+                    <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+
+                </div>  <!-- end header__search -->
+
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
+
+                    <ul class="header__nav">
+                        <li class="current"><a href="index.html" title="">Inicio</a></li>
+                        <li>
+                            <a href="#0" title="">Wiki</a>
+                        </li>
+                        <li>
+                            <a href="#0" title="">Ayuda</a>
+                        </li>
+                        <li><a href="#" title="">Carreras</a></li>
+                        <li><a href="#" title="">Quien Somos</a></li>
+                        <li><a href="#" title="">Contacto</a></li>
+                    </ul> <!-- end header__nav -->
+
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+    </section> <!-- end s-pageheader -->
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content">
+
+        <div class="row masonry-wrap">
+            <div class="masonry" id="articles">
+
+                <div class="grid-sizer"></div>
+
+                <article class="masonry__brick entry format-standard" data-aos="fade-up" id="art-temp">
+
+                    <div class="entry__thumb">
+                        <a href="#" class="entry__thumb-link">
+                            <img src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 15, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a name="title" href="single-standard.html">Dia 100 del proyecto Pegasus</a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <p name="body">
+                                Tras 100 dias, se lanza la primera version alpha del proyecto <a>Pegasus</a>. A partir de ahora el equipo se dedicara a corregir bugs.
+                            </p>
+                            <a href="#" class="entry__thumb-link"><cite name="author">Ivan Garcia</cite></a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Programación</a>
+                                <a href="category.html">Tecnología</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article> <!-- end article -->
+
+            </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+
+        <div class="row">
+            <div class="col-full">
+                <nav class="pgn">
+                    <ul>
+                        <li><a class="pgn__prev" href="#0">Prev</a></li>
+                        <li><a class="pgn__num" href="#0">1</a></li>
+                        <li><span class="pgn__num current">2</span></li>
+                        <li><a class="pgn__num" href="#0">3</a></li>
+                        <li><a class="pgn__num" href="#0">4</a></li>
+                        <li><a class="pgn__num" href="#0">5</a></li>
+                        <li><span class="pgn__num dots">…</span></li>
+                        <li><a class="pgn__num" href="#0">8</a></li>
+                        <li><a class="pgn__next" href="#0">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </section> <!-- s-content -->
+    <!-- s-extra
+    ================================================== -->
+    <section class="s-extra">
+
+        <div class="row bottom tags-wrap">
+            <div class="col-full tags">
+                <h3>Tags</h3>
+
+                <div class="tagcloud">
+                    <a href="#0">Salad</a>
+                    <a href="#0">Recipe</a>
+                    <a href="#0">Places</a>
+                    <a href="#0">Tips</a>
+                    <a href="#0">Friends</a>
+                    <a href="#0">Travel</a>
+                    <a href="#0">Exercise</a>
+                    <a href="#0">Reading</a>
+                    <a href="#0">Running</a>
+                    <a href="#0">Self-Help</a>
+                    <a href="#0">Vacation</a>
+                </div> <!-- end tagcloud -->
+            </div> <!-- end tags -->
+        </div> <!-- end tags-wrap -->
+
+    </section> <!-- end s-extra -->
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+
+                <div class="col-two md-four mob-full s-footer__sitelinks">
+
+                    <h4>Quick Links</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="#0">Home</a></li>
+                        <li><a href="#0">Blog</a></li>
+                        <li><a href="#0">Styles</a></li>
+                        <li><a href="#0">About</a></li>
+                        <li><a href="#0">Contact</a></li>
+                        <li><a href="#0">Privacy Policy</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__sitelinks -->
+
+                <div class="col-two md-four mob-full s-footer__archives">
+
+                    <h4>Archives</h4>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="#0">January 2018</a></li>
+                        <li><a href="#0">December 2017</a></li>
+                        <li><a href="#0">November 2017</a></li>
+                        <li><a href="#0">October 2017</a></li>
+                        <li><a href="#0">September 2017</a></li>
+                        <li><a href="#0">August 2017</a></li>
+                    </ul>
+
+                </div> <!-- end s-footer__archives -->
+
+
+                <div class="col-five md-full end s-footer__subscribe">
+
+                    <h4>Nuestro Contacto</h4>
+
+                    <p>
+                        Mail: mail@jachievement.com <br />
+                        Tel: 0800-333-9999<br />
+                        Dirección: Av. Libertador 1234
+                    </p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+
+                            <input type="submit" name="subscribe" value="Send">
+
+                            <label for="mc-email" class="subscribe-message"></label>
+
+                        </form>
+                    </div>
+
+                </div> <!-- end s-footer__subscribe -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+
+    </footer> <!-- end s-footer -->
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
+
+    <script>
+        window.onload = function () {
+
+            /*$.getJSON("/feed/sistemas", function (data) {
+
+                var parent = document.getElementById("articles");
+
+
+
+                $.each(data.posts, function (k, v) {
+                    alert(v.title);
+                    var node = document.getElementById("art-temp").cloneNode(true);
+                    node.querySelector('a[name="title"]').innerHTML = v.title;
+                    node.querySelector('p[name="body"]').innerHTML = v.body;
+                    node.querySelector('cite[name="author"]').innerHTML = v.user;
+                    parent.appendChild(node);
+                })*/
+
+
+                /*const elem = `<article class="masonry__brick entry format-standard" data-aos="fade-up" id="art-temp">
+
+                    <div class="entry__thumb">
+                        <a href="#" class="entry__thumb-link">
+                            <img src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
+                        </a>
+                    </div>
+
+                    <div class="entry__text">
+                        <div class="entry__header">
+
+                            <div class="entry__date">
+                                <a href="single-standard.html">December 15, 2017</a>
+                            </div>
+                            <h1 class="entry__title"><a name="title" href="single-standard.html">${title}</a></h1>
+
+                        </div>
+                        <div class="entry__excerpt">
+                            <p name="body>${body}</p>
+                            <a href="#" class="entry__thumb-link"><cite name="author">${user}</cite></a>
+                        </div>
+                        <div class="entry__meta">
+                            <span class="entry__meta-links">
+                                <a href="category.html">Programación</a>
+                                <a href="category.html">Tecnología</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </article>`;*/
+
+
+            });
+            //document.getElementById("articles").appendChild(elem);
+
+            /*for (i = 0; i < dt.length; i++) {
+                alert(dt.posts[i].title);
+                var node = document.getElementById("art-temp").cloneNode(true);
+                node.querySelector('a[name="title"]').innerHTML = dt.posts[i].title;
+                node.querySelector('p[name="body"]').innerHTML = dt.posts[i].body;
+                node.querySelector('cite[name="author"]').innerHTML = dt.posts[i].user;
+                document.getElementById("articles").appendChild(node);
+            } */
+
+        }
+    </script>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{{ url_for('static', filename='js/plugins.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+
+
+
+</body>
+
+</html>

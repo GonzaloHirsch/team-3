@@ -9,11 +9,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/mdb.min.css') }}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.min.css') }}" rel="stylesheet">
     <style type="text/css">
         @media (min-width: 800px) and (max-width: 850px) {
             .navbar:not(.top-nav-collapse) {
@@ -21,20 +21,20 @@
             }
         }
     </style>
-
-    <link rel="stylesheet" href="css/firstPage.css">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/firstPage.css') }}">
 
     <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <script src="{{ url_for('static', filename='js/modernizr.js') }}"></script>
+    <script src="{{ url_for('static', filename='s/pace.min.js') }}j"></script>
 
 </head>
 
 <body>
 
     <!-- Full Page Intro -->
-    <div class="view" style="background-image: url('./img/2.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div class="view" style="background-image: url('static/img/2.jpg'); background-repeat: no-repeat; background-size: cover;">
 
         <!-- Mask & flexbox options-->
         <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -53,7 +53,7 @@
                     <strong>Nosotros te guiamos para que tomes las mejores decisiones.</strong>
                 </p>
 
-                <a  href="feed.html" class="btn btn-outline-white btn-lg">
+                <a  href="/feed" class="btn btn-outline-white btn-lg">
                     Todo comienza con un click
                     <i class="fas fa-graduation-cap ml-2"></i>
                 </a>
@@ -69,13 +69,13 @@
     <!--/.Footer-->
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.4.0.min.js') }}"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/mdb.min.js') }}"></script>
     <!-- Initializations -->
     <script type="text/javascript">
         // Animations initialization

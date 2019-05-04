@@ -3,24 +3,29 @@ from flask import render_template
 
 import sys
 import json
+import os
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html", title = 'Projects')
+    return render_template("index.html")
+
+@app.route("/feed")
+def feed():
+    return render_template("feed.html")
 
 @app.route("/feed/<career>")
-def feed(career):
-    if career=="sistemas":
-        return json.dumps({"title": "Mi Dia Como Programador",
-                            "body": "Hoy tuve una reunion muy interesante con el equipo de desarollo en el que definimos el modelo de la base de datos.",
-                            "user": "juancito92",
-                            "comments": {
-                                "content": "Como se define una base de datos???",
-                                "user": "pepito99"
-                            }})
-    return []
+def feedCareer(career):
+    path_to_json = 'Jsons/' + career
+    json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
+    jsons = {"posts":[]}
+    for i in range(0,len(json_files)):  
+        jsons["posts"].append(json.load(open(os.getcwd() + "\\Jsons\\" + str(career) + "\\" + json_files[i],"r")))
+    return json.dumps(jsons)
+
+
+
 
 @app.route("/wiki/<career>")
 def wiki(career):
@@ -47,7 +52,10 @@ def profile(username):
 
 
 def initialize_server():
-    app.run(host= '0.0.0.0') #,ssl_context='adhoc'
+    app.run(host= '0.0.0.0',debug=True) #,ssl_context='adhoc'
 
 if __name__ == "__main__":
     initialize_server()
+
+
+ 
