@@ -34,6 +34,7 @@
 
             $.each(data.posts, function (k, v) {
                 var node = document.getElementById("art-temp").cloneNode(true);
+                node.querySelector('img[name="img"]').src = "/static/images/feed/" + v.img;
                 node.querySelector('a[name="title"]').innerHTML = v.title;
                 node.querySelector('p[name="body"]').innerHTML = v.body;
                 node.querySelector('cite[name="author"]').innerHTML = v.user;

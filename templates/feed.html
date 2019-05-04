@@ -105,7 +105,7 @@
 
                     <div class="entry__thumb">
                         <a href="#" class="entry__thumb-link">
-                            <img src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
+                            <img name="img" src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
                         </a>
                     </div>
 
@@ -165,17 +165,14 @@
                 <h3>Tags</h3>
 
                 <div class="tagcloud">
-                    <a href="#0">Salad</a>
-                    <a href="#0">Recipe</a>
-                    <a href="#0">Places</a>
+                    <a href="#0">Ingenieria</a>
+                    <a href="#0">Informatica</a>
+                    <a href="#0">Tecnologia</a>
                     <a href="#0">Tips</a>
-                    <a href="#0">Friends</a>
-                    <a href="#0">Travel</a>
-                    <a href="#0">Exercise</a>
-                    <a href="#0">Reading</a>
-                    <a href="#0">Running</a>
-                    <a href="#0">Self-Help</a>
-                    <a href="#0">Vacation</a>
+                    <a href="#0">Estudiante</a>
+                    <a href="#0">Futuro</a>
+                    <a href="#0">Computadoras</a>
+                    <a href="#0">Mobiles</a>
                 </div> <!-- end tagcloud -->
             </div> <!-- end tags -->
         </div> <!-- end tags-wrap -->
@@ -264,71 +261,6 @@
 
     <script src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
 
-    <script>
-        window.onload = function () {
-
-            /*$.getJSON("/feed/sistemas", function (data) {
-
-                var parent = document.getElementById("articles");
-
-
-
-                $.each(data.posts, function (k, v) {
-                    alert(v.title);
-                    var node = document.getElementById("art-temp").cloneNode(true);
-                    node.querySelector('a[name="title"]').innerHTML = v.title;
-                    node.querySelector('p[name="body"]').innerHTML = v.body;
-                    node.querySelector('cite[name="author"]').innerHTML = v.user;
-                    parent.appendChild(node);
-                })*/
-
-
-                /*const elem = `<article class="masonry__brick entry format-standard" data-aos="fade-up" id="art-temp">
-
-                    <div class="entry__thumb">
-                        <a href="#" class="entry__thumb-link">
-                            <img src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
-                        </a>
-                    </div>
-
-                    <div class="entry__text">
-                        <div class="entry__header">
-
-                            <div class="entry__date">
-                                <a href="single-standard.html">December 15, 2017</a>
-                            </div>
-                            <h1 class="entry__title"><a name="title" href="single-standard.html">${title}</a></h1>
-
-                        </div>
-                        <div class="entry__excerpt">
-                            <p name="body>${body}</p>
-                            <a href="#" class="entry__thumb-link"><cite name="author">${user}</cite></a>
-                        </div>
-                        <div class="entry__meta">
-                            <span class="entry__meta-links">
-                                <a href="category.html">Programación</a>
-                                <a href="category.html">Tecnología</a>
-                            </span>
-                        </div>
-                    </div>
-
-                </article>`;*/
-
-
-            });
-            //document.getElementById("articles").appendChild(elem);
-
-            /*for (i = 0; i < dt.length; i++) {
-                alert(dt.posts[i].title);
-                var node = document.getElementById("art-temp").cloneNode(true);
-                node.querySelector('a[name="title"]').innerHTML = dt.posts[i].title;
-                node.querySelector('p[name="body"]').innerHTML = dt.posts[i].body;
-                node.querySelector('cite[name="author"]').innerHTML = dt.posts[i].user;
-                document.getElementById("articles").appendChild(node);
-            } */
-
-        }
-    </script>
 
 
     <!-- Java Script
