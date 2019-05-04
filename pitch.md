@@ -32,7 +32,15 @@ La Wiki tiene informacion util sobre las diferentes carreras, para que Juli se p
 
 Todos los datos se recuperan con una API hecha en Python.
 
+DISEÑO
+
 Teniendo en cuenta que los chicos que usarian la plataforma tienen entre 16 y 19 años, decidimos diseñar algo similar a las redes sociales que estan acostumbrados a utilizar
+
+MENTOR
+
+Al momento de ya saber una carrera, Juli elige la opcion que dice que sabe la carrera, selecciona la carrera que quiere y al posible mentor. Esto le envia una notificacion al sistema de monitoreo para administradores, con la informacion de los perfiles de Juli y el posible Mentor. Para que Junior Achievement apruebe la mentoria.
+
+Esta plataforma es parte de una suite compuesta por la plataforma para alumnos, una plataforma de control para administradores para ver datos en tiempo real, y una plataforma donde pueden ingresar los Profesionales y cargar y postear informacion.
 
 
 PITCH TECNICO
