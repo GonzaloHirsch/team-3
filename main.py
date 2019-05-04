@@ -15,6 +15,10 @@ def home():
 def feed():
     return render_template("feed.html")
 
+@app.route("/success")
+def success():
+    return "<h1> Podes acceder este post </h1>"
+
 @app.route("/feed/<career>")
 def feedCareer(career):
     path_to_json = 'Jsons/' + career
