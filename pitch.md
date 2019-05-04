@@ -62,6 +62,9 @@ Nosotros pensamos en una plataforma que al entrar por primera vez, el usuario se
 
 Este problema, el como determinar un area de interes basada en otras areas de interes, es de los problemas que mejor resuelve ML, en donde hay muchos datos que para un humano aparentan no tener una relacion, pero una computadora puede interpolar conclusiones a partir de eso.
 
+Esto deberia hacerse si o si con un metodo supervisado de entrenamiento, pero el unico factor limitante seria conseguir una cantidad suficiente de datos para alimentar el entrenamiento.
+ESCRIBIR COMO SE HARIA
+
 -----------------------------Feed:
 
 Esto sirve para alimentar a nuestro Feed, con una serie de categorias para mostrarle al usuario, si no completa lo anterior, se muestran cosas al azar. El mismo se adapta al usuario, mostrando contenido similar al mas visto.

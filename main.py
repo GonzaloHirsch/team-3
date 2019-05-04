@@ -53,6 +53,24 @@ def profile(username):
 
     return []
 
+@app.route("/admin/data")
+def admin(data):
+    return json.dumps({"amount": "52"
+        })
+
+    return []
+
+@app.route("/user/<points>")
+def user(points):
+    if points=="low":
+        return json.dumps({"amount": "50"
+        })
+
+    if points=="high":
+        return json.dumps({"amount": "100"
+        })
+
+    return []
 
 def initialize_server():
     app.run(host= '0.0.0.0') #,ssl_context='adhoc'
