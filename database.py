@@ -25,9 +25,18 @@ class User(db.Model):
 db.session.add(User(name="Agus Osimani", email="agusosimani@itba.edu.ar"))
 db.session.add(User(name="Gonza Hirsch", email="gonzahirsch@itba.edu.ar"))
 db.session.add(Post(title="Dia de un ingeniero en informatica", body="Hoy fui mentor en una hackathon", userID="1"))
-db.session.add(Post(title="Dia de un ingeniero en informatica", body="Hoy fui mentor en una hackathon", userID="1"))
+db.session.add(Post(title="Trabajo como ingeniero", body="Hoy ayude a organizar una hackathon", userID="2"))
 db.session.add(WikiInfo(career="Ingenieria en informatica", info="Se estudia en ITBA, UBA, UTN y UADE"))
+db.session.add(WikiInfo(career="Economia", info="Se estudia en UBA y UADE"))
+db.session.add(WikiInfo(career="Medicina", info="Se estudia en CEMIC, UBA y Austral"))
 
 db.session.commit()
 
-users = User.query.all()
+def GetAllUsers():
+	return User.query.all()
+
+def GetAllWiki():
+	return User.query.all()
+
+def GetAllPosts():
+	return User.query.all()
