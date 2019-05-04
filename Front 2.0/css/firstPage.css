@@ -1,0 +1,69 @@
+
+
+/* ------------------------------------------------------------------- 
+ * ## feature section animation
+ * ------------------------------------------------------------------- */
+
+/* fade in */
+@-webkit-keyframes fadeIn {
+   from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 150%, 0);
+      -ms-transform: translate3d(0, 150%, 0);
+      transform: translate3d(0, 150%, 0);
+   }
+
+   to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+   }
+
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 150%, 0);
+      -ms-transform: translate3d(0, 150%, 0);
+      transform: translate3d(0, 150%, 0);
+   }
+
+   to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+   }
+
+}
+
+/* fade out */
+@-webkit-keyframes fadeOut {
+   from {
+      opacity: 1;
+   }
+
+   to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -150%, 0);
+      -ms-transform: translate3d(0, -150%, 0);
+      transform: translate3d(0, -150%, 0);
+   }
+
+}
+
+@keyframes fadeOut {
+   from {
+      opacity: 1;
+   }
+
+   to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -150%, 0);
+      -ms-transform: translate3d(0, -150%, 0);
+      transform: translate3d(0, -150%, 0);
+   }
+
+}
