@@ -31,6 +31,12 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
 
+    <script>
+        function noPoint() {
+            alert("No tenes suficiente puntos!");
+        }
+    </script>
+
 </head>
 
 <body id="top">
@@ -48,21 +54,7 @@
                     </a>
                 </div> <!-- end header__logo -->
 
-                <a class="header__search-trigger" href="#0"></a>
-
-                <div class="header__search">
-
-                    <form role="search" method="get" class="header__search-form" action="#">
-                        <label>
-                            <span class="hide-content">Search for:</span>
-                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
-                        </label>
-                        <input type="submit" class="search-submit" value="Search">
-                    </form>
-
-                    <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
-
-                </div>  <!-- end header__search -->
+                <strong style="float:right;color:antiquewhite">Puntos: 50</strong>
 
 
                 <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
@@ -104,7 +96,7 @@
                 <article class="masonry__brick entry format-standard" data-aos="fade-up" id="art-temp">
 
                     <div class="entry__thumb">
-                        <a href="#" class="entry__thumb-link">
+                        <a href="#" name="link" class="entry__thumb-link">
                             <img name="img" src="{{ url_for('static', filename='images/thumbs/featured/featured-watch.jpg') }}" />
                         </a>
                     </div>
@@ -113,9 +105,10 @@
                         <div class="entry__header">
 
                             <div class="entry__date">
-                                <a href="single-standard.html">December 15, 2017</a>
+                                <a href="#">December 15, 2017</a>
+                                <p style="float:right" name="puntos">Puntos: 10</p>
                             </div>
-                            <h1 class="entry__title"><a name="title" href="single-standard.html">Dia 100 del proyecto Pegasus</a></h1>
+                            <h1 class="entry__title"><a name="title" href="#">Dia 100 del proyecto Pegasus</a></h1>
 
                         </div>
                         <div class="entry__excerpt">

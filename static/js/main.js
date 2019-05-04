@@ -38,6 +38,16 @@
                 node.querySelector('a[name="title"]').innerHTML = v.title;
                 node.querySelector('p[name="body"]').innerHTML = v.body;
                 node.querySelector('cite[name="author"]').innerHTML = v.user;
+                node.querySelector('p[name="puntos"]').innerHTML = "Puntos: " + v.points;
+                if (v.points >= 50) {
+                    node.querySelector('a[name="title"]').href = "javascript:noPoint()"
+                    node.querySelector('a[name="link"]').href = "javascript:noPoint()"
+                }
+                else {
+                    node.querySelector('a[name="title"]').href = "/success"
+                    node.querySelector('a[name="link"]').href = "/success"
+                }
+
                 parent.appendChild(node);
             })
         });
