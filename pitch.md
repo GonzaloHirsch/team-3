@@ -12,23 +12,21 @@ Ella tiene una hermana que estudia abogacia pero nunca tuvo ganas de hacerle pre
 
 Como jamás investigó carreras, cree que va a estudiar eso, pero la verdad es que tiene ganas de saber mas, y no esta muy conforme con estudiar abogacia.
 
-En el colegio no le mostraron mucho sobre el mundo universitario, asi que eso no la ayuda mucho. Se acerca el momento de elegir que hacer, pero no tiene idea de que hacer.
+En el colegio no le mostraron mucho sobre el mundo universitario, asi que eso no la ayuda mucho. Se acerca el momento de elegir que hacer, pero no tiene idea de que quiere hacer.
 
 Esta plataforma esta hecha para chicos y chicas como Juli, que nunca tuvieron mucha info sobre el tema o estan poco seguros.
 
 IDEA
 
-Nosotros ideamos una plataforma, en donde al momento que Juli ingresa, se le pregunta si esta segura o no de lo que quiere estudiar.
+Ideamos una plataforma en donde al momento que Juli ingresa, se le pregunta si esta segura o no de lo que quiere estudiar.
 
 En el caso que dice que no, se le pide que seleccione algunos intereses y gustos de entre una lista, y a traves de un algoritmo de ML, obtener una mejor idea de las carreras a las que se puede llegar a orientar.
 
 Recien ahi puede acceder a nuestro Feed y Wiki. 
 
-El Feed se personaliza segun los intereses mas frecuentes de cada uno. En el mismo puede encontrar posts, videos y lives de los profesionales, pero parte de este contenido esta bloqueado a partir de un sistema de puntajes.
+El Feed se personaliza segun los intereses mas frecuentes de cada uno. En el mismo puede encontrar posts, videos y lives de los profesionales, pero parte de este contenido esta bloqueado a partir de un sistema de puntajes. Mientras mas contenido vea, osea mientras mas se informe, mas puntos gana, y mas features desbloquea. De esta forma Juli investiga mas para poder desbloquear hacer preguntas en los live, por ejemplo.
 
-Mientras mas contenido vea, osea mientras mas se informe, mas puntos gana, y mas features desbloquea. De esta forma Juli investiga mas para poder desbloquear hacer preguntas en los live, por ejemplo.
-
-La Wiki tiene informacion util sobre las diferentes carreras, para que Juli se pueda informar sobre todas las carreras al mismo tiempo.
+La Wiki tiene informacion util sobre las diferentes carreras, para que Juli se pueda informar sobre todas las carreras al mismo tiempo, ademas de tener FAQs.
 
 Todos los datos se recuperan con una API hecha en Python.
 
