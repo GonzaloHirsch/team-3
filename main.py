@@ -24,9 +24,6 @@ def feedCareer(career):
         jsons["posts"].append(json.load(open(os.getcwd() + "\\Jsons\\" + str(career) + "\\" + json_files[i],"r")))
     return json.dumps(jsons)
 
-
-
-
 @app.route("/wiki/<career>")
 def wiki(career):
     if career=="sistemas":
@@ -50,6 +47,24 @@ def profile(username):
 
     return []
 
+@app.route("/admin/data")
+def admin(data):
+    return json.dumps({"amount": "52"
+        })
+
+    return []
+
+@app.route("/user/<points>")
+def user(points):
+    if points=="low":
+        return json.dumps({"amount": "50"
+        })
+
+    if points=="high":
+        return json.dumps({"amount": "100"
+        })
+
+    return []
 
 def initialize_server():
     app.run(host= '0.0.0.0',debug=True) #,ssl_context='adhoc'
