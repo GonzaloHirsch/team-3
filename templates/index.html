@@ -21,8 +21,15 @@
             }
         }
     </style>
-    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/firstPage.css') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
     <!-- script
     ================================================== -->
@@ -53,15 +60,87 @@
                     <strong>Nosotros te guiamos para que tomes las mejores decisiones.</strong>
                 </p>
 
-                <a  href="/feed" class="btn btn-outline-white btn-lg">
+                <a class="btn btn-outline-white btn-lg" data-toggle="modal" data-target="#myModal">
                     Todo comienza con un click
                     <i class="fas fa-graduation-cap ml-2"></i>
                 </a>
             </div>
             <!-- Content -->
 
+            <div class="container" style="position:absolute">
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Contanos de vos</h4>
+                            </div>
+                            <div class="modal-body">
+                                <!-- !PAGE CONTENT! -->
+                                <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:60px">
+                                    <h3 class="w3-padding">1. Selecciona tus intereses</h3>
+                                    <!-- First Photo Grid-->
+                                    <div class="" id="food">
+                                        <div class="interest">
+                                            <img src="./static/resources/cooking.jpg" alt="Cocina" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Cocina</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/design.jpg" alt="Diseño" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Diseño</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/historia.jpg" alt="Historia" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Historia</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/architecture.jpg" alt="Arquitectura" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Arquitectura</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- Second Photo Grid-->
+                                    <div class="">
+                                        <div class="interest">
+                                            <img src="./static/resources/tourism.jpg" alt="Turismo" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Turismo</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/salud.jpg" alt="Salud" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Salud</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/art.jpg" alt="Arte" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Arte</h3>
+                                        </div>
+                                        <div class="interest">
+                                            <img src="./static/resources/tech.jpg" alt="Tecnología" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Tecnología</h3>
+                                        </div>
+                                        <div class="w3-quarter interest">
+                                            <img src="./static/resources/animals.jpg" alt="Animales" style="width:100%; height: 150px;">
+                                            <h3 class="w3-center">Animales</h3>
+                                        </div>
+                                    </div
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="/feed" class="btn btn-default">Continuar</a>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
         <!-- Mask & flexbox options-->
+
 
     </div>
     <!-- Full Page Intro -->
