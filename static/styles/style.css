@@ -73,3 +73,19 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+
+.body {
+    font-family: 'Roboto';
+}
+
+.interest:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.interest {
+    width: 33.3%;
+    height: 20%;
+    float: left;
+    padding-left: 10px; 
+}
